@@ -1,16 +1,16 @@
 <?php
 
-$lang["num_word_1"] ="One";
-$lang["num_word_2"] ="Two";
-$lang["num_word_3"] ="Three";
-$lang["num_word_4"] ="Four";
-$lang["num_word_5"] ="Five";
-$lang["num_word_6"] ="Six";
-$lang["num_word_7"] ="Seven";
-$lang["num_word_8"] ="Eight";
-$lang["num_word_9"] ="Nine";
-$lang["num_word_10"] ="Ten";
-$lang["num_word_11"] ="Eleven";
+$lang["num_word_1"] ="Bir";
+$lang["num_word_2"] ="İki";
+$lang["num_word_3"] ="Üç";
+$lang["num_word_4"] ="Dört";
+$lang["num_word_5"] ="Beş";
+$lang["num_word_6"] ="Altı";
+$lang["num_word_7"] ="Yedi";
+$lang["num_word_8"] ="Sekiz";
+$lang["num_word_9"] ="Dokuz";
+$lang["num_word_10"] ="On";
+$lang["num_word_11"] ="Onbir";
 $lang["num_word_12"] ="Twelve";
 $lang["num_word_13"] ="Thirteen";
 $lang["num_word_14"] ="Fourteen";
