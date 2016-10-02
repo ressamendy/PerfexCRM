@@ -165,7 +165,7 @@ $lang['email_template_lowercase']               = 'email template';
 $lang['email_templates_lowercase']              = 'email templates';
 $lang['email_template_ticket_fields_heading']   = 'Tickets';
 $lang['email_template_invoices_fields_heading'] = 'Invoices';
-$lang['email_template_clients_fields_heading']  = 'Customers';
+$lang['email_template_clients_fields_heading']  = 'Müşteriler';
 
 $lang['template_name']                                      = 'Template Name';
 $lang['template_subject']                                   = 'Subject';
@@ -176,7 +176,7 @@ $lang['email_template_disabed']                             = 'Disabled';
 $lang['email_template_email_message']                       = 'Email message';
 $lang['available_merge_fields']                             = 'Available merge fields';
 # Home
-$lang['dashboard_string']                                   = 'Dashboard';
+$lang['dashboard_string']                                   = 'Ana Panel';
 $lang['home_latest_todos']                                  = 'Latest todo\'s';
 $lang['home_no_latest_todos']                               = 'No todos found';
 $lang['home_latest_finished_todos']                         = 'Latest finished todo\'s';
@@ -329,35 +329,35 @@ $lang['group_table_isactive_heading']  = 'Active';
 $lang['kb_no_groups_found']            = 'No knowledge base groups found';
 
 # Mail Lists
-$lang['mail_lists']                           = 'Mail Lists';
+$lang['mail_lists']                           = 'Mail Listeleri';
 $lang['mail_list']                            = 'Mail List';
-$lang['new_mail_list']                        = 'New Mail List';
-$lang['mail_list_lowercase']                  = 'mail list';
-$lang['custom_field_deleted_success']         = 'Custom field deleted';
+$lang['new_mail_list']                        = 'Yeni Mail Listesi';
+$lang['mail_list_lowercase']                  = 'mail listesi';
+$lang['custom_field_deleted_success']         = 'Özel Alan Silindi';
 $lang['custom_field_deleted_fail']            = 'Problem deleting custom field';
-$lang['email_removed_from_list']              = 'Email removed from list';
-$lang['email_remove_fail']                    = 'Email removed from list';
-$lang['staff_mail_lists']                     = 'Staff Mail List';
-$lang['clients_mail_lists']                   = 'Clients Mail List';
+$lang['email_removed_from_list']              = 'Email listeden silindi';
+$lang['email_remove_fail']                    = 'Email listeden kaldırılır';
+$lang['staff_mail_lists']                     = 'Personel Mail Listesi';
+$lang['clients_mail_lists']                   = 'Müşteriler Mail Listesi';
 $lang['mail_list_total_imported']             = 'Total emails imported: %s';
 $lang['mail_list_total_duplicate']            = 'Total duplicate emails: %s';
 $lang['mail_list_total_failed_to_insert']     = 'Emails failed to insert: %s';
-$lang['mail_list_total_invalid']              = 'Invalid email address: %s';
+$lang['mail_list_total_invalid']              = 'Geçersiz e-posta adresi: %s';
 $lang['cant_edit_mail_list']                  = 'You cant edit this list, this list is populated automatically';
-$lang['mail_list_add_edit_name']              = 'Mail List Name';
-$lang['mail_list_add_edit_customfield']       = 'Add custom field';
-$lang['mail_lists_viewing_emails']            = 'Viewing Emails From List';
+$lang['mail_list_add_edit_name']              = 'Mail Listesi Adı';
+$lang['mail_list_add_edit_customfield']       = 'Özel Alan Ekle';
+$lang['mail_lists_viewing_emails']            = 'E-Mailler Listede Görüntüleniyor';
 $lang['mail_lists_view_email_email_heading']  = 'Email';
 $lang['mail_lists_view_email_date_heading']   = 'Date Added';
 $lang['add_new_email_to']                     = 'Add New Email to %s';
 $lang['import_emails_to']                     = 'Import Emails to %s';
 $lang['mail_list_new_email_edit_add_label']   = 'Email';
 $lang['mail_list_import_file']                = 'Import File';
-$lang['mail_list_available_custom_fields']    = 'Available Custom Fields';
-$lang['submit_import_emails']                 = 'Import Emails';
-$lang['btn_import_emails']                    = 'Import Emails (Excel)';
+$lang['mail_list_available_custom_fields']    = 'Mevcut Özel Alanlar';
+$lang['submit_import_emails']                 = 'E-Mail Yükleme';
+$lang['btn_import_emails']                    = 'E-Mail Yükleme (Excel)';
 $lang['btn_add_email_to_list']                = 'Add Email to This List';
-$lang['mail_lists_dt_list_name']              = 'List Name';
+$lang['mail_lists_dt_list_name']              = 'Liste Adı';
 $lang['mail_lists_dt_datecreated']            = 'Date Created';
 $lang['mail_lists_dt_creator']                = 'Creator';
 $lang['email_added_to_mail_list_successfuly'] = 'Email added to list';
@@ -387,76 +387,76 @@ $lang['predifined_reply_add_edit_name']    = 'Predifined Reply Name';
 $lang['predifined_reply_add_edit_content'] = 'Reply Content';
 
 # Ticket Priorities
-$lang['new_ticket_priority']           = 'New Priority';
-$lang['ticket_priorities']             = 'Ticket Priorities';
-$lang['ticket_priority']               = 'Ticket Priority';
-$lang['ticket_priority_lowercase']     = 'ticket priority';
+$lang['new_ticket_priority']           = 'Yeni Öncelik';
+$lang['ticket_priorities']             = 'Bilet Öncelikleri';
+$lang['ticket_priority']               = 'Bilet Önceliği';
+$lang['ticket_priority_lowercase']     = 'bilet öncliği';
 $lang['no_ticket_priorities_found']    = 'No Ticket Priorities Found';
-$lang['ticket_priority_dt_name']       = 'Ticket Priority Name';
-$lang['ticket_priority_add_edit_name'] = 'Priority Name';
+$lang['ticket_priority_dt_name']       = 'Bilet Öncelik Adı';
+$lang['ticket_priority_add_edit_name'] = 'Öncelik Adı';
 
 # Reports
 $lang['kb_reports']                         = 'Knowledge base articles reports';
-$lang['sales_reports']                      = 'Sales Reports';
-$lang['reports_choose_kb_group']            = 'Choose Group';
-$lang['reports_sales_select_report_type']   = 'Select Report Type';
-$lang['report_kb_yes']                      = 'Yes';
-$lang['report_kb_no']                       = 'No';
+$lang['sales_reports']                      = 'Satış Raporları';
+$lang['reports_choose_kb_group']            = 'Grup Seçin';
+$lang['reports_sales_select_report_type']   = 'Rapor Tipi Seç';
+$lang['report_kb_yes']                      = 'Evet';
+$lang['report_kb_no']                       = 'Hayır';
 $lang['report_kb_no_votes']                 = 'No votes yet';
 $lang['report_this_week_leads_conversions'] = 'This Week Leads Conversions';
 $lang['report_leads_sources_conversions']   = 'Sources Conversion';
-$lang['report_leads_monthly_conversions']   = 'Monthly';
-$lang['sales_report_heading']               = 'Sales Report';
-$lang['report_sales_type_income']           = 'Total Income';
+$lang['report_leads_monthly_conversions']   = 'aylık';
+$lang['sales_report_heading']               = 'Satış Raporu';
+$lang['report_sales_type_income']           = 'Toplam Gelir';
 
-$lang['report_sales_type_customer']                    = 'Customer Report';
+$lang['report_sales_type_customer']                    = 'Müşteri Raporu';
 $lang['report_sales_base_currency_select_explanation'] = 'You need to select currency because you have invoices with different currency';
-$lang['report_sales_from_date']                        = 'From Date';
-$lang['report_sales_to_date']                          = 'To Date';
+$lang['report_sales_from_date']                        = 'Tarihten İtibaren';
+$lang['report_sales_to_date']                          = 'Bugüne Kadar';
 
 
-$lang['report_sales_months_all_time']      = 'All Time';
-$lang['report_sales_months_six_months']    = 'Last 6 months';
-$lang['report_sales_months_twelve_months'] = 'Last 12 months';
-$lang['report_sales_months_custom']        = 'Custom';
-$lang['reports_sales_generated_report']    = 'Generated Report';
+$lang['report_sales_months_all_time']      = 'Her Zaman';
+$lang['report_sales_months_six_months']    = 'Son 6 Ay';
+$lang['report_sales_months_twelve_months'] = 'Son 12 Ay';
+$lang['report_sales_months_custom']        = 'Özel';
+$lang['reports_sales_generated_report']    = 'Oluşturulan Rapor';
 
 
 
-$lang['reports_sales_dt_customers_client']                = 'Customer';
-$lang['reports_sales_dt_customers_total_invoices']        = 'Total Invoices';
-$lang['reports_sales_dt_items_customers_amount']          = 'Amount';
-$lang['reports_sales_dt_items_customers_amount_with_tax'] = 'Amount with Tax';
+$lang['reports_sales_dt_customers_client']                = 'Müşteriler';
+$lang['reports_sales_dt_customers_total_invoices']        = 'Toplam Faturalar';
+$lang['reports_sales_dt_items_customers_amount']          = 'Miktar';
+$lang['reports_sales_dt_items_customers_amount_with_tax'] = 'Vergi Tutar';
 
 # Roles
-$lang['new_role']           = 'New Role';
-$lang['all_roles']          = 'All Role';
-$lang['roles']              = 'Staff Roles';
-$lang['role']               = 'Role';
-$lang['role_lowercase']     = 'role';
-$lang['roles_total_users']  = 'Total Users: ';
-$lang['roles_dt_name']      = 'Role Name';
-$lang['role_add_edit_name'] = 'Role Name';
+$lang['new_role']           = 'Yeni Görev';
+$lang['all_roles']          = 'Tüm Görevler';
+$lang['roles']              = 'Personel Görevleri';
+$lang['role']               = 'Görev';
+$lang['role_lowercase']     = 'görev';
+$lang['roles_total_users']  = 'Tüm Kullanıcılar: ';
+$lang['roles_dt_name']      = 'Görev İsmi';
+$lang['role_add_edit_name'] = 'Görev İsmi';
 
 # Service
-$lang['new_service']           = 'New Service';
-$lang['services']              = 'Services';
-$lang['service']               = 'Service';
-$lang['service_lowercase']     = 'service';
-$lang['services_dt_name']      = 'Service Name';
-$lang['service_add_edit_name'] = 'Service Name';
+$lang['new_service']           = 'Yeni Servis';
+$lang['services']              = 'Servis';
+$lang['service']               = 'Servis';
+$lang['service_lowercase']     = 'servis';
+$lang['services_dt_name']      = 'Servis İsmi';
+$lang['service_add_edit_name'] = 'Servis İsmi';
 
 # Settings
-$lang['settings']                     = 'Settings';
-$lang['settings_updated']             = 'Settings Updated';
-$lang['settings_save']                = 'Save Settings';
-$lang['settings_group_general']       = 'General';
-$lang['settings_group_localization']  = 'Localization';
-$lang['settings_group_tickets']       = 'Tickets';
-$lang['settings_group_sales']         = 'Finance';
+$lang['settings']                     = 'Ayarlar';
+$lang['settings_updated']             = 'Ayarlar Güncellendi';
+$lang['settings_save']                = 'Ayarları Kaydet';
+$lang['settings_group_general']       = 'Genel';
+$lang['settings_group_localization']  = 'Yerelleştirme';
+$lang['settings_group_tickets']       = 'Biletler';
+$lang['settings_group_sales']         = 'Finans';
 $lang['settings_group_email']         = 'Email';
-$lang['settings_group_clients']       = 'Customers';
-$lang['settings_group_newsfeed']      = 'Newsfeed';
+$lang['settings_group_clients']       = 'Müşteriler';
+$lang['settings_group_newsfeed']      = 'Haber Akışı';
 $lang['settings_group_cronjob']       = 'Cron Job';
 
 $lang['settings_yes']                                        = 'Yes';
@@ -621,8 +621,8 @@ $lang['wd_saturday']  = 'Saturday';
 $lang['wd_sunday']    = 'Sunday';
 
 # Admin Left Sidebar
-$lang['als_dashboard'] = 'Dashboard';
-$lang['als_clients']   = 'Customers';
+$lang['als_dashboard'] = 'Ana Panel';
+$lang['als_clients']   = 'Müşteriler';
 $lang['als_leads']     = 'Leads';
 
 $lang['als_contracts'] = 'Contracts';
@@ -799,7 +799,7 @@ $lang['survey_add_edit_red_url_note']              = 'When user finish survey wh
 $lang['survey_add_edit_disabled']                  = 'Disabled';
 $lang['survey_add_edit_only_for_logged_in']        = 'Only for logged in participants (staff,customers)';
 $lang['send_survey_string']                        = 'Send Survey';
-$lang['survey_send_mail_list_clients']             = 'Customers';
+$lang['survey_send_mail_list_clients']             = 'Müşteriler';
 $lang['survey_send_mail_list_staff']               = 'Staff';
 $lang['survey_send_mail_lists_string']             = 'Mail Lists';
 $lang['survey_send_mail_lists_note_logged_in']     = 'Note: If you are sending survey to mail lists Only for logged in participants need to be unchecked';
@@ -1665,7 +1665,7 @@ $lang['expenses_report_for']                                         = 'Expenses
 $lang['custom_field_required']                                       = 'Required';
 $lang['custom_field_show_on_pdf']                                    = 'Show on PDF';
 $lang['custom_field_leads']                                          = 'Leads';
-$lang['custom_field_customers']                                      = 'Customers';
+$lang['custom_field_customers']                                      = 'Müşteriler';
 $lang['custom_field_staff']                                          = 'Staff';
 $lang['custom_field_contracts']                                      = 'Contracts';
 $lang['custom_field_tasks']                                          = 'Tasks';
@@ -2634,11 +2634,11 @@ $lang['not_customer_created_new_project_discussion'] = 'New project discussion c
 $lang['not_customer_commented_on_project_discussion'] = 'New comment on project discussion';
 
 # Customers area
-$lang['clients_my_estimates'] = 'My Estimates';
-$lang['client_no_reply'] = 'No Reply';
-$lang['clients_nav_projects'] = 'Projects';
-$lang['clients_my_projects'] = 'My Projects';
-$lang['client_profile_image'] = 'Profile image';
+$lang['clients_my_estimates'] = 'Tahminlerim';
+$lang['client_no_reply'] = 'Cevap Yok';
+$lang['clients_nav_projects'] = 'Projeler';
+$lang['clients_my_projects'] = 'Projelerim';
+$lang['client_profile_image'] = 'Profil Resmi';
 
 /////
 $lang['sales_report_cancelled_invoices_not_included'] = 'Cancelled invoices are excluded from the report';
@@ -2825,7 +2825,7 @@ $lang['expense_report_category'] = 'Category';
 $lang['expense_paid_via'] = 'Paid Via %s';
 $lang['item_as_expense'] = '[Expense]';
 $lang['show_help_on_setup_menu'] = 'Show help menu item on setup menu';
-$lang['customers_summary_total'] = 'Total Customers';
+$lang['customers_summary_total'] = 'Tüm Müşteriler';
 $lang['filter_by'] = 'Filter by';
 $lang['re_captcha'] = 'reCAPTCHA';
 $lang['recaptcha_site_key'] = 'Site key';
@@ -2891,7 +2891,7 @@ $lang['note'] = 'Note';
 $lang['leads_staff_report_converted'] = 'Total converted leads';
 $lang['leads_staff_report_created'] = 'Total created leads';
 $lang['leads_staff_report_lost'] = 'Total lost leads';
-$lang['client_go_to_dashboard'] = 'Back to portal';
+$lang['client_go_to_dashboard'] = 'Portala dön';
 $lang['show_estimate_reminders_on_calendar'] = 'Estimate Reminders';
 $lang['show_invoice_reminders_on_calendar'] = 'Invoice Reminders';
 $lang['calendar_estimate_reminder'] = 'Estimate Reminder';
