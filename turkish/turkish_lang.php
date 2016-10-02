@@ -3,9 +3,9 @@
 #
 # General
 $lang['id']                   = 'ID';
-$lang['name']                 = 'Name';
-$lang['options']              = 'Options';
-$lang['submit']               = 'Save';
+$lang['name']                 = 'İsim';
+$lang['options']              = 'Opsiyonlar';
+$lang['submit']               = 'Kaydet';
 $lang['added_successfuly']    = '%s added successfully.';
 $lang['updated_successfuly']  = '%s updated successfully.';
 $lang['edit']                 = 'Edit %s';
@@ -13,11 +13,11 @@ $lang['add_new']              = 'Add new %s';
 $lang['deleted']              = '%s deleted';
 $lang['problem_deleting']     = 'Problem deleting %s';
 $lang['is_referenced']        = 'The ID of the %s is already using.';
-$lang['close']                = 'Close';
-$lang['send']                 = 'Send';
-$lang['cancel']               = 'Cancel';
-$lang['go_back']              = 'Go Back';
-$lang['error_uploading_file'] = 'Error uploading file';
+$lang['close']                = 'Kapat';
+$lang['send']                 = 'Gönder';
+$lang['cancel']               = 'İptal';
+$lang['go_back']              = 'Geri Git';
+$lang['error_uploading_file'] = 'Dosya Yükleme Hatası';
 $lang['load_more']            = 'Load More';
 $lang['cant_delete_default']  = 'Cant delete default %s';
 
