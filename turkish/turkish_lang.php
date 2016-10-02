@@ -51,93 +51,93 @@ $lang['invoice_payments_table_amount_heading'] = 'Tutar';
 
 
 # Announcements
-$lang['announcement']                 = 'Announcement';
-$lang['announcement_lowercase']       = 'announcement';
-$lang['announcements']                = 'Announcements';
-$lang['announcements_lowercase']      = 'announcements';
-$lang['new_announcement']             = 'New Announcement';
-$lang['announcement_name']            = 'Subject';
-$lang['announcement_message']         = 'Message';
-$lang['announcement_show_to_staff']   = 'Show to staff';
-$lang['announcement_show_to_clients'] = 'Show to clients';
-$lang['announcement_show_my_name']    = 'Show my name';
+$lang['announcement']                 = 'Duyuru';
+$lang['announcement_lowercase']       = 'duyuru';
+$lang['announcements']                = 'Duyurular';
+$lang['announcements_lowercase']      = 'duyurular';
+$lang['new_announcement']             = 'Yeni Duyurular';
+$lang['announcement_name']            = 'Konu';
+$lang['announcement_message']         = 'Mesaj';
+$lang['announcement_show_to_staff']   = 'Personeline göster';
+$lang['announcement_show_to_clients'] = 'Müşterilerine göster';
+$lang['announcement_show_my_name']    = 'Adımı Göster';
 
 # Clients
-$lang['clients']                               = 'Customers';
-$lang['client']                                = 'Customer';
-$lang['new_client']                            = 'New Customer';
-$lang['client_lowercase']                      = 'customer';
-$lang['client_delete_tooltip']                 = 'All customer data will be deleted. Contracts,tickets,notes. NOTE: If invoices found customer wont be deleted. You need to assign this invoices to another customer to keep the invoice number';
+$lang['clients']                               = 'Müşteriler';
+$lang['client']                                = 'Müşteri';
+$lang['new_client']                            = 'Yeni Müşteri';
+$lang['client_lowercase']                      = 'müşteri';
+$lang['client_delete_tooltip']                 = 'Tüm müşteri verileri silinecek. Sözleşmeler, biletler, notlar. NOT: If invoices found customer wont be deleted. You need to assign this invoices to another customer to keep the invoice number';
 $lang['customer_delete_invoices_warning']      = 'This customer have invoices on the account. You cant delete this customer. Change all invoices to another customer in a future then delete.';
-$lang['client_firstname']                      = 'First Name';
-$lang['client_lastname']                       = 'Last Name';
+$lang['client_firstname']                      = 'İsim';
+$lang['client_lastname']                       = 'Soyisim';
 $lang['client_email']                          = 'Email';
-$lang['client_company']                        = 'Company';
-$lang['client_vat_number']                     = 'VAT Number';
-$lang['client_address']                        = 'Address';
-$lang['client_city']                           = 'City';
-$lang['client_postal_code']                    = 'Postal Code';
-$lang['client_state']                          = 'State';
-$lang['client_password']                       = 'Password';
-$lang['client_password_change_populate_note']  = 'Note: if you populate this fields, password will be changed on this contact.';
+$lang['client_company']                        = 'Şirket';
+$lang['client_vat_number']                     = 'KDV Number';
+$lang['client_address']                        = 'Adres';
+$lang['client_city']                           = 'Şehir';
+$lang['client_postal_code']                    = 'Posta Kodu';
+$lang['client_state']                          = 'Bölge';
+$lang['client_password']                       = 'Şifre';
+$lang['client_password_change_populate_note']  = 'Not: if you populate this fields, password will be changed on this contact.';
 $lang['client_password_last_changed']          = 'Password last changed:';
 $lang['login_as_client']                       = 'Login as client';
-$lang['client_invoices_tab']                   = 'Invoices';
-$lang['contracts_invoices_tab']                = 'Contracts';
-$lang['contracts_tickets_tab']                 = 'Tickets';
-$lang['contracts_notes_tab']                   = 'Notes';
-$lang['client_invoice_number_table_heading']   = 'Invoice #';
-$lang['client_invoice_date_table_heading']     = 'Date';
+$lang['client_invoices_tab']                   = 'Faturalar';
+$lang['contracts_invoices_tab']                = 'Sözleşmeler';
+$lang['contracts_tickets_tab']                 = 'Biletler';
+$lang['contracts_notes_tab']                   = 'Notlar';
+$lang['client_invoice_number_table_heading']   = 'Fatura #';
+$lang['client_invoice_date_table_heading']     = 'Tarih';
 $lang['client_invoice_due_date_table_heading'] = 'Due Date';
-$lang['client_string_table_heading']           = 'Customer';
-$lang['client_amount_table_heading']           = 'Amount';
-$lang['client_status_table_heading']           = 'Status';
-$lang['note_description']                      = 'Note description';
+$lang['client_string_table_heading']           = 'Müşteri';
+$lang['client_amount_table_heading']           = 'Tutar';
+$lang['client_status_table_heading']           = 'Durum';
+$lang['note_description']                      = 'Not Açıklaması';
 
-$lang['client_string_contracts_table_heading']      = 'Customer';
-$lang['client_start_date_contracts_table_heading']  = 'Start Date';
-$lang['client_end_date_contracts_table_heading']    = 'End Date';
-$lang['client_description_contracts_table_heading'] = 'Description';
+$lang['client_string_contracts_table_heading']      = 'Müşteri';
+$lang['client_start_date_contracts_table_heading']  = 'Başlangıç Tarihi';
+$lang['client_end_date_contracts_table_heading']    = 'Bitiş Tarihi';
+$lang['client_description_contracts_table_heading'] = 'Açıklama';
 $lang['client_do_not_send_welcome_email']           = 'Do not send welcome email';
 
-$lang['clients_notes_table_description_heading'] = 'Description';
+$lang['clients_notes_table_description_heading'] = 'Açıklama';
 $lang['clients_notes_table_addedfrom_heading']   = 'Added From';
 $lang['clients_notes_table_dateadded_heading']   = 'Date Added';
 
-$lang['clients_list_full_name']   = 'Full Name';
+$lang['clients_list_full_name']   = 'Tam isim';
 
-$lang['clients_list_last_login']  = 'Last Login';
+$lang['clients_list_last_login']  = 'Son Login';
 
 
 # Contracts
-$lang['contracts']                = 'Contracts';
-$lang['contract']                 = 'Contract';
-$lang['new_contract']             = 'New Contract';
-$lang['contract_lowercase']       = 'contract';
+$lang['contracts']                = 'Kontratlar';
+$lang['contract']                 = 'Kontrat';
+$lang['new_contract']             = 'Yeni Kontrat';
+$lang['contract_lowercase']       = 'kontrat';
 $lang['contract_start_date']      = 'Start Date';
-$lang['contract_end_date']        = 'End Date';
-$lang['contract_subject']         = 'Subject';
-$lang['contract_description']     = 'Description';
+$lang['contract_end_date']        = 'Bitiş Tarihi';
+$lang['contract_subject']         = 'Konu';
+$lang['contract_description']     = 'Açıklama';
 $lang['contract_subject_tooltip'] = 'Subject is also visible to customer';
-$lang['contract_client_string']   = 'Customer';
+$lang['contract_client_string']   = 'Müşteri';
 $lang['contract_attach']          = 'Attach document';
 
-$lang['contract_list_client']     = 'Customer';
-$lang['contract_list_subject']    = 'Subject';
-$lang['contract_list_start_date'] = 'Start Date';
-$lang['contract_list_end_date']   = 'End Date';
+$lang['contract_list_client']     = 'Müşteri';
+$lang['contract_list_subject']    = 'Konu';
+$lang['contract_list_start_date'] = 'Başlangıç Tarihi';
+$lang['contract_list_end_date']   = 'Bitiş Tarihi';
 
 # Currencies
-$lang['currencies']           = 'Currencies';
-$lang['currency']             = 'Currency';
-$lang['new_currency']         = 'New Currency';
-$lang['currency_lowercase']   = 'currency';
+$lang['currencies']           = 'Kurlar';
+$lang['currency']             = 'Para';
+$lang['new_currency']         = 'Yeni Para';
+$lang['currency_lowercase']   = 'para';
 $lang['base_currency_set']    = 'This is now your base currency.';
 $lang['make_base_currency']   = 'Make base currency';
 $lang['base_currency_string'] = 'Base Currency';
 
-$lang['currency_list_name']   = 'Name';
-$lang['currency_list_symbol'] = 'Symbol';
+$lang['currency_list_name']   = 'İsim';
+$lang['currency_list_symbol'] = 'Sembol';
 
 
 $lang['currency_add_edit_description'] = 'Currency Name';
