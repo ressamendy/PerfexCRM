@@ -2089,21 +2089,21 @@ $lang['customer_ticket_subject']          = 'Subject';
 $lang['email_template_proposals_fields_heading'] = 'Proposals';
 
 # Tasks
-$lang['add_task_attachments']                 = 'Attachment';
-$lang['task_view_attachments']                = 'Attachments';
-$lang['task_view_description']                = 'Description';
-$lang['task_table_is_finished_indicator']     = 'Yes';
-$lang['task_table_is_not_finished_indicator'] = 'No';
-$lang['tasks_dt_finished']                    = 'Finished';
+$lang['add_task_attachments']                 = 'Ek';
+$lang['task_view_attachments']                = 'Ekler';
+$lang['task_view_description']                = 'Açıklama';
+$lang['task_table_is_finished_indicator']     = 'Evet';
+$lang['task_table_is_not_finished_indicator'] = 'Hayır';
+$lang['tasks_dt_finished']                    = 'Bitirdi';
 
 # Customer Groups
-$lang['customer_group_add_heading']  = 'Add New Customer Group';
-$lang['customer_group_edit_heading'] = 'Edit Customer Group';
-$lang['new_customer_group']          = 'New Customer Group';
-$lang['customer_group_name']         = 'Name';
-$lang['customer_groups']             = 'Groups';
-$lang['customer_group']              = 'Customer Group';
-$lang['customer_group_lowercase']    = 'customer group';
+$lang['customer_group_add_heading']  = 'Yeni Müşteri Gurubu Ekle';
+$lang['customer_group_edit_heading'] = 'Müşteri gurubunu edit le';
+$lang['new_customer_group']          = 'Yeni Müşteri Durumu Değilmi.';
+$lang['customer_group_name']         = 'İsim';
+$lang['customer_groups']             = 'Gruplar';
+$lang['customer_group']              = 'Müşteri GurupCustomer Group';
+$lang['customer_group_lowercase']    = 'müşteri grubu';
 
 $lang['customer_have_invoices_by']       = 'Contains invoices by status %s';
 $lang['customer_have_estimates_by']      = 'Contains estimates by status %s';
@@ -2305,7 +2305,7 @@ $lang['leads_sort_by_kanban_order'] = 'Kan Ban Order';
 
 # Proposals
 $lang['proposal_items_name'] = 'Item';
-$lang['proposal_items_description'] = 'Description';
+$lang['proposal_items_description'] = 'Açıklama';
 $lang['proposal_items_qty'] = 'Qty';
 $lang['proposal_items_rate'] = 'Rate';
 $lang['proposal_items_tax'] = 'Tax';
@@ -2538,7 +2538,7 @@ $lang['invoice_project_data_single_line']            = 'Single line';
 $lang['invoice_project_data_task_per_item']            = 'Task per item';
 $lang['invoice_project_data_timesheets_individualy']            = 'All timesheets individualy';
 $lang['invoice_project_item_name_data']            = 'Item name';
-$lang['invoice_project_description_data']            = 'Description';
+$lang['invoice_project_description_data']            = 'Açıklama';
 $lang['invoice_project_projectname_taskname']            = 'Project name + Task name';
 $lang['invoice_project_all_tasks_total_logged_time']            = 'All tasks + total logged time per task';
 $lang['invoice_project_project_name_data']            = 'Project name';
@@ -2574,7 +2574,7 @@ $lang['project_discussions']                 = 'Discussions';
 $lang['edit_discussion'] = 'Create Discussion';
 $lang['new_project_discussion'] = 'Create Discussion';
 $lang['project_discussion_subject'] = 'Subject';
-$lang['project_discussion_description'] = 'Description';
+$lang['project_discussion_description'] = 'Açıklama';
 $lang['project_discussion_show_to_customer'] = 'Visible to Customer';
 $lang['project_discussion_total_comments'] = 'Total Comments';
 $lang['project_discussion_last_activity'] = 'Last Activity';
@@ -2707,7 +2707,7 @@ $lang['estimate_notes'] = 'Notes';
 $lang['estimate_add_note'] = 'Add Note';
 $lang['dropdown_non_selected_tex'] = 'Nothing selected';
 $lang['auto_close_ticket_after'] = 'Auto close ticket after (Hours)';
-$lang['event_description'] = 'Description';
+$lang['event_description'] = 'Açıklama';
 $lang['delete_event'] = 'Delete';
 $lang['not_new_ticket_created'] = 'New ticket opened in your department - %s';
 $lang['receive_notification_on_new_ticket'] = 'Receive notification on new ticket opened';
@@ -2960,7 +2960,7 @@ $lang['send_expiry_reminder'] = 'Sent expiration reminder';
 $lang['sent_expiry_reminder_success'] = 'Expiration reminder successfully sent';
 $lang['sent_expiry_reminder_fail'] = 'Failed to send expiration reminder';
 $lang['leads_default_status'] = 'Default status';
-$lang['item_description_placeholder'] = 'Description';
+$lang['item_description_placeholder'] = 'Açıklama';
 $lang['item_long_description_placeholder'] = 'Long description';
 $lang['item_quantity_placeholder'] = 'Quantity';
 $lang['item_rate_placeholder'] = 'Rate';
@@ -3057,7 +3057,7 @@ $lang['task_log_time_end'] = $lang['project_timesheet_end_time'];
 $lang['task_single_log_user'] = $lang['project_timesheet_user'];
 
 # Version 1.2.2
-$lang['milestone_description'] = 'Description';
+$lang['milestone_description'] = 'Açıklama';
 $lang['description_visible_to_customer'] = 'Show description to customer';
 $lang['upcoming_tasks'] = 'Upcoming Tasks';
 $lang['paymentmethod_two_checkout_account_number'] = 'Account Number (Seller ID)';
