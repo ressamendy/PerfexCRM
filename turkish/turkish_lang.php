@@ -22,10 +22,10 @@ $lang['load_more']            = 'Load More';
 $lang['cant_delete_default']  = 'Cant delete default %s';
 
 # Invoice General
-$lang['invoice_status_paid']                = 'Paid';
-$lang['invoice_status_unpaid']              = 'Unpaid';
-$lang['invoice_status_overdue']             = 'Overdue';
-$lang['invoice_status_not_paid_completely'] = 'Partially Paid';
+$lang['invoice_status_paid']                = 'Ödenmiş';
+$lang['invoice_status_unpaid']              = 'Ödenmemiş';
+$lang['invoice_status_overdue']             = 'Vadesi Geçmiş';
+$lang['invoice_status_not_paid_completely'] = 'Kısmen Ödenmiş';
 
 $lang['invoice_pdf_heading'] = 'INVOICE';
 
@@ -271,12 +271,12 @@ $lang['invoice_send_to_client_modal_heading']    = 'Send invoice to client';
 $lang['invoice_send_to_client_attach_pdf']       = 'Attach Invoice PDF';
 $lang['invoice_send_to_client_preview_template'] = 'Preview Email Template';
 
-$lang['invoice_dt_table_heading_number']  = 'Invoice #';
-$lang['invoice_dt_table_heading_date']    = 'Date';
-$lang['invoice_dt_table_heading_client']  = 'Customer';
-$lang['invoice_dt_table_heading_duedate'] = 'Due Date';
-$lang['invoice_dt_table_heading_amount']  = 'Amount';
-$lang['invoice_dt_table_heading_status']  = 'Status';
+$lang['invoice_dt_table_heading_number']  = 'Fatura #';
+$lang['invoice_dt_table_heading_date']    = 'Tarih';
+$lang['invoice_dt_table_heading_client']  = 'Müşteri';
+$lang['invoice_dt_table_heading_duedate'] = 'Bitiş tarihi';
+$lang['invoice_dt_table_heading_amount']  = 'Tutar';
+$lang['invoice_dt_table_heading_status']  = 'Durum';
 
 $lang['record_payment_for_invoice']              = 'Record Payment for';
 $lang['record_payment_amount_received']          = 'Amount Received';
@@ -306,27 +306,27 @@ $lang['payment_edit_lave_note']       = 'Leave Note';
 
 
 # Knowledge Base
-$lang['kb_article_add_edit_subject'] = 'Subject';
-$lang['kb_article_add_edit_group']   = 'Group';
-$lang['kb_string']                   = 'Knowledge Base';
-$lang['kb_article']                  = 'Article';
-$lang['kb_article_lowercase']        = 'article';
-$lang['kb_article_new_article']      = 'New Article';
+$lang['kb_article_add_edit_subject'] = 'Konu';
+$lang['kb_article_add_edit_group']   = 'Grup';
+$lang['kb_string']                   = 'Bilgi Bankası';
+$lang['kb_article']                  = 'Makale';
+$lang['kb_article_lowercase']        = 'makale';
+$lang['kb_article_new_article']      = 'Yeni Makale';
 $lang['kb_article_disabled']         = 'Disabled';
-$lang['kb_article_description']      = 'Article description';
+$lang['kb_article_description']      = 'Makale açıklaması';
 
-$lang['kb_table']                      = 'List';
-$lang['kb_no_articles_found']          = 'No knowledgbase articles found';
-$lang['kb_dt_article_name']            = 'Article Name';
-$lang['kb_dt_group_name']              = 'Group';
-$lang['new_group']                     = 'New Group';
-$lang['kb_group_add_edit_name']        = 'Group Name';
-$lang['kb_group_add_edit_description'] = 'Short description';
-$lang['kb_group_add_edit_disabled']    = 'Disabled';
+$lang['kb_table']                      = 'Liste';
+$lang['kb_no_articles_found']          = 'Bilgi bankasında hiç bir makale bulunamadı';
+$lang['kb_dt_article_name']            = 'Makale Adı';
+$lang['kb_dt_group_name']              = 'Grup';
+$lang['new_group']                     = 'Yeni Grup';
+$lang['kb_group_add_edit_name']        = 'Grup Adı';
+$lang['kb_group_add_edit_description'] = 'Kısa Açıklama';
+$lang['kb_group_add_edit_disabled']    = 'Devre dışı';
 $lang['kb_group_add_edit_note']        = 'Note: All articles in this group will be hidden if disabled is checked';
-$lang['group_table_name_heading']      = 'Name';
-$lang['group_table_isactive_heading']  = 'Active';
-$lang['kb_no_groups_found']            = 'No knowledge base groups found';
+$lang['group_table_name_heading']      = 'İsim';
+$lang['group_table_isactive_heading']  = 'Aktif';
+$lang['kb_no_groups_found']            = 'Bilgi bankası gurubu bulunamadı';
 
 # Mail Lists
 $lang['mail_lists']                           = 'Mail Listeleri';
@@ -590,15 +590,15 @@ $lang['lead_confirmation_canban_contacted'] = 'Have you got in touch with this l
 $lang['activity_log_when_cron_job'] = 'Cron Job';
 $lang['access_denied']              = 'Acccess denied';
 $lang['prev']                       = 'Prev';
-$lang['next']                       = 'next';
+$lang['next']                       = 'sonraki';
 
 # Datatables
 $lang['dt_paginate_first']          = 'First';
 $lang['dt_paginate_last']           = 'Last';
-$lang['dt_paginate_next']           = 'Next';
-$lang['dt_paginate_previous']       = 'Previous';
+$lang['dt_paginate_next']           = 'Sonraki';
+$lang['dt_paginate_previous']       = 'Önceki';
 $lang['dt_empty_table']             = 'No {0} found';
-$lang['dt_search']                  = 'Search:';
+$lang['dt_search']                  = 'Arama:';
 $lang['dt_zero_records']            = 'No matching records found';
 $lang['dt_loading_records']         = 'Loading...';
 $lang['dt_length_menu']             = 'Show _MENU_ entries';
@@ -632,7 +632,7 @@ $lang['als_sales']       = 'Satış';
 
 $lang['als_staff'] = 'Staff';
 $lang['als_tasks'] = 'Görevler';
-$lang['als_kb']    = 'Knowledge Base';
+$lang['als_kb']    = 'Bilgi Bankası';
 
 $lang['als_surveys']               = 'Surveys';
 $lang['als_media']                 = 'Media';
@@ -918,7 +918,7 @@ $lang['finished_todos_title']      = 'Latest finished todo\'s';
 $lang['password_changed_email_subject']             = 'Your password has been changed';
 $lang['password_reset_email_subject']               = 'Reset your password on %s';
 # Utilities
-$lang['utility_activity_log']                       = 'Activity Log';
+$lang['utility_activity_log']                       = 'Aktivite Kayıtları';
 $lang['utility_activity_log_filter_by_date']        = 'Filter by date';
 $lang['utility_activity_log_dt_description']        = 'Description';
 $lang['utility_activity_log_dt_date']               = 'Date';
@@ -966,42 +966,42 @@ $lang['clients_home_currency_select_tooltip']      = 'You need to select currenc
 $lang['clients_invoice_html_btn_download'] = 'Download';
 
 $lang['clients_my_invoices']        = 'Faturalarım';
-$lang['clients_invoice_dt_number']  = 'Invoice #';
-$lang['clients_invoice_dt_date']    = 'Date';
-$lang['clients_invoice_dt_duedate'] = 'Due Date';
-$lang['clients_invoice_dt_amount']  = 'Amount';
-$lang['clients_invoice_dt_status']  = 'Status';
+$lang['clients_invoice_dt_number']  = 'Fatura #';
+$lang['clients_invoice_dt_date']    = 'Tarih';
+$lang['clients_invoice_dt_duedate'] = 'Bitiş Tarihi';
+$lang['clients_invoice_dt_amount']  = 'Tutar';
+$lang['clients_invoice_dt_status']  = 'Durum';
 
 # Profile
 $lang['clients_profile_heading'] = 'Profile';
 
 # Used for edit profile and register START
-$lang['clients_firstname'] = 'First Name';
-$lang['clients_lastname']  = 'Last Name';
-$lang['clients_email']     = 'Email Address';
-$lang['clients_company']   = 'Company';
-$lang['clients_vat']       = 'VAT Number';
-$lang['clients_phone']     = 'Phone';
-$lang['clients_country']   = 'Country';
-$lang['clients_city']      = 'City';
-$lang['clients_address']   = 'Address';
-$lang['clients_zip']       = 'Zip';
-$lang['clients_state']     = 'State';
+$lang['clients_firstname'] = 'İsim';
+$lang['clients_lastname']  = 'Soyisim';
+$lang['clients_email']     = 'Email Adres';
+$lang['clients_company']   = 'Şirket';
+$lang['clients_vat']       = 'Vergi No';
+$lang['clients_phone']     = 'Telefon';
+$lang['clients_country']   = 'Ülke';
+$lang['clients_city']      = 'Şehir';
+$lang['clients_address']   = 'Adres';
+$lang['clients_zip']       = 'Posta Kodu';
+$lang['clients_state']     = 'Bölge';
 # Used for edit profile and register END
 
-$lang['clients_register_password']        = 'Password';
-$lang['clients_register_password_repeat'] = 'Repeat Password';
-$lang['clients_edit_profile_update_btn']  = 'Update';
+$lang['clients_register_password']        = 'Şifre';
+$lang['clients_register_password_repeat'] = 'Tekrar Şifre';
+$lang['clients_edit_profile_update_btn']  = 'Güncelle';
 
-$lang['clients_edit_profile_change_password_heading'] = 'Change Password';
-$lang['clients_edit_profile_old_password']            = 'Old Password';
-$lang['clients_edit_profile_new_password']            = 'New Password';
-$lang['clients_edit_profile_new_password_repeat']     = 'Repeat Password';
-$lang['clients_edit_profile_change_password_btn']     = 'Change Password';
-$lang['clients_profile_last_changed_password']        = 'Password last changed %s';
+$lang['clients_edit_profile_change_password_heading'] = 'Şifre Değiştir';
+$lang['clients_edit_profile_old_password']            = 'Eski Şifre';
+$lang['clients_edit_profile_new_password']            = 'Yeni Şifre';
+$lang['clients_edit_profile_new_password_repeat']     = 'Tekrar Şifre';
+$lang['clients_edit_profile_change_password_btn']     = 'Şifre Değiştir';
+$lang['clients_profile_last_changed_password']        = 'Son değiştirilen şifre %s';
 
 # Knowledge base
-$lang['clients_knowledge_base']                    = 'Knowledge Base';
+$lang['clients_knowledge_base']                    = 'Bilgi Bankası';
 $lang['clients_knowledge_base_articles_not_found'] = 'No knowledge base articles found';
 $lang['clients_knowledge_base_find_useful']        = 'Did you find this article useful?';
 $lang['clients_knowledge_base_find_useful_yes']    = 'Yes';
@@ -1010,63 +1010,63 @@ $lang['clients_article_only_1_vote_today']         = 'You can vote once in 24 ho
 $lang['clients_article_voted_thanks_for_feedback'] = 'Thanks for your feedback';
 
 # Tickets
-$lang['clients_ticket_open_subject']                = 'Open Ticket';
-$lang['clients_ticket_open_departments']            = 'Department';
-$lang['clients_tickets_heading']                    = 'Support Tickets';
-$lang['clients_ticket_open_service']                = 'Service';
-$lang['clients_ticket_open_priority']               = 'Priority';
-$lang['clients_latest_tickets']                     = 'Latest Tickets';
+$lang['clients_ticket_open_subject']                = 'Açık Bilet';
+$lang['clients_ticket_open_departments']            = 'Departman';
+$lang['clients_tickets_heading']                    = 'Destek Bileti';
+$lang['clients_ticket_open_service']                = 'Servis';
+$lang['clients_ticket_open_priority']               = 'Öncelik';
+$lang['clients_latest_tickets']                     = 'Son Biletler';
 $lang['clients_ticket_open_body']                   = 'Ticket Body';
-$lang['clients_ticket_attachments']                 = 'Attachments';
+$lang['clients_ticket_attachments']                 = 'Ekler';
 $lang['clients_ticket_posted']                      = 'Posted: %s';
-$lang['clients_single_ticket_string']               = 'Ticket';
+$lang['clients_single_ticket_string']               = 'Bilet';
 $lang['clients_single_ticket_replied']              = 'Replied: %s';
-$lang['clients_single_ticket_informations_heading'] = 'Ticket Informations';
+$lang['clients_single_ticket_informations_heading'] = 'Bilet Bilgisi';
 
-$lang['clients_tickets_dt_number']     = 'Ticket #';
-$lang['clients_tickets_dt_subject']    = 'Subject';
-$lang['clients_tickets_dt_department'] = 'Department';
-$lang['clients_tickets_dt_service']    = 'Service';
-$lang['clients_tickets_dt_status']     = 'Status';
-$lang['clients_tickets_dt_last_reply'] = 'Last Reply';
+$lang['clients_tickets_dt_number']     = 'Bilet #';
+$lang['clients_tickets_dt_subject']    = 'Konu';
+$lang['clients_tickets_dt_department'] = 'Departman';
+$lang['clients_tickets_dt_service']    = 'Servis';
+$lang['clients_tickets_dt_status']     = 'Durum';
+$lang['clients_tickets_dt_last_reply'] = 'Son Cevap';
 
-$lang['clients_ticket_single_department']        = 'Department: %s';
-$lang['clients_ticket_single_submited']          = 'Submited: %s';
-$lang['clients_ticket_single_status']            = 'Status:';
-$lang['clients_ticket_single_priority']          = 'Priority: %s';
-$lang['clients_ticket_single_add_reply_btn']     = 'Add Reply';
-$lang['clients_ticket_single_add_reply_heading'] = 'Add reply to this ticket';
+$lang['clients_ticket_single_department']        = 'Departman: %s';
+$lang['clients_ticket_single_submited']          = 'Gönderilen: %s';
+$lang['clients_ticket_single_status']            = 'Durum:';
+$lang['clients_ticket_single_priority']          = 'Öncelik: %s';
+$lang['clients_ticket_single_add_reply_btn']     = 'Cevap Ekle';
+$lang['clients_ticket_single_add_reply_heading'] = 'Bu bilet cevap ekle';
 
 # Login
-$lang['clients_login_heading_no_register'] = 'Please login';
-$lang['clients_login_heading_register']    = 'Please login or register';
-$lang['clients_login_email']               = 'Email Address';
-$lang['clients_login_password']            = 'Password';
-$lang['clients_login_remember']            = 'Remember me';
-$lang['clients_login_login_string']        = 'Login';
+$lang['clients_login_heading_no_register'] = 'Giriş Yapın';
+$lang['clients_login_heading_register']    = 'Lütfen Giriş Yapın Yada Kayıt Olun';
+$lang['clients_login_email']               = 'Email Adres';
+$lang['clients_login_password']            = 'Şifre';
+$lang['clients_login_remember']            = 'Beni Hatırla';
+$lang['clients_login_login_string']        = 'Giriş';
 
 # Register
-$lang['clients_register_string']  = 'Register';
-$lang['clients_register_heading'] = 'Register';
+$lang['clients_register_string']  = 'Kayıt';
+$lang['clients_register_heading'] = 'Kayıt';
 
 # Navigation
-$lang['clients_nav_login']     = 'Login';
-$lang['clients_nav_register']  = 'Register';
+$lang['clients_nav_login']     = 'Giriş';
+$lang['clients_nav_register']  = 'Kayıt';
 $lang['clients_nav_invoices']  = 'Faturalar';
 $lang['clients_nav_contracts'] = 'Kontratlar';
-$lang['clients_nav_kb']        = 'Knowledge Base';
-$lang['clients_nav_profile']   = 'Profile';
-$lang['clients_nav_logout']    = 'Logout';
+$lang['clients_nav_kb']        = 'Bilgi Bankası';
+$lang['clients_nav_profile']   = 'Profil';
+$lang['clients_nav_logout']    = 'Çıkış';
 
 # Datatables
-$lang['clients_dt_paginate_first']    = 'First';
-$lang['clients_dt_paginate_last']     = 'Last';
-$lang['clients_dt_paginate_next']     = 'Next';
-$lang['clients_dt_paginate_previous'] = 'Previous';
+$lang['clients_dt_paginate_first']    = 'İlk';
+$lang['clients_dt_paginate_last']     = 'Son';
+$lang['clients_dt_paginate_next']     = 'İleri';
+$lang['clients_dt_paginate_previous'] = 'Ger,';
 $lang['clients_dt_empty_table']       = 'No {0} found';
-$lang['clients_dt_search']            = 'Search:';
-$lang['clients_dt_zero_records']      = 'No matching records found';
-$lang['clients_dt_loading_records']   = 'Loading...';
+$lang['clients_dt_search']            = 'Arama:';
+$lang['clients_dt_zero_records']      = 'Hiçbir eşleşen kayıt bulunamadı';
+$lang['clients_dt_loading_records']   = 'Yükleniyor...';
 $lang['clients_dt_length_menu']       = 'Show _MENU_ ';
 $lang['clients_dt_info_filtered']     = '(filtered from _MAX_ total {0})';
 $lang['clients_dt_info_empty']        = 'Showing 0 to 0 of 0 {0}';
@@ -1080,25 +1080,25 @@ $lang['clients_dt_sort_descending']   = 'activate to sort column descending';
 # Admin
 #
 # Payments
-$lang['payment_receipt']                               = 'Payment Receipt';
-$lang['payment_for_string']                            = 'Payment For';
-$lang['payment_date']                                  = 'Payment Date:';
-$lang['payment_view_mode']                             = 'Payment Mode:';
+$lang['payment_receipt']                               = 'Ödeme Fişi';
+$lang['payment_for_string']                            = 'Ödeme';
+$lang['payment_date']                                  = 'Ödeme Tarihi :';
+$lang['payment_view_mode']                             = 'Ödeme Modu:';
 $lang['payment_total_amount']                          = 'Total Amount';
-$lang['payment_table_invoice_number']                  = 'Invoice Number';
-$lang['payment_table_invoice_date']                    = 'Invoice Date';
-$lang['payment_table_invoice_amount_total']            = 'Invoice Amount';
-$lang['payment_table_payment_amount_total']            = 'Payment Amount';
-$lang['payments_table_transaction_id']                 = 'Transaction ID: %s';
+$lang['payment_table_invoice_number']                  = 'Fatura Numarası';
+$lang['payment_table_invoice_date']                    = 'Fatura Tarihi';
+$lang['payment_table_invoice_amount_total']            = 'Fatura Tutarı';
+$lang['payment_table_payment_amount_total']            = 'Ödeme Tutarı';
+$lang['payments_table_transaction_id']                 = 'İşlem ID: %s';
 $lang['payment_getaway_token_not_found']               = 'Token Not Found';
-$lang['online_payment_recorded_success']               = 'Payment recorded successfully';
+$lang['online_payment_recorded_success']               = 'Ödeme başarıyla kaydedildi';
 $lang['online_payment_recorded_success_fail_database'] = 'Payment is successful but failed to insert payment to database, contact administrator';
 
 # Leads
 $lang['lead_convert_to_client']                   = 'Convert to customer';
 $lang['lead_convert_to_email']                    = 'Email';
-$lang['lead_convert_to_client_firstname']         = 'First Name';
-$lang['lead_convert_to_client_lastname']          = 'Last Name';
+$lang['lead_convert_to_client_firstname']         = 'İsim';
+$lang['lead_convert_to_client_lastname']          = 'Soyisim';
 $lang['lead_email_already_exists']                = 'Lead email already exists in customers data';
 $lang['lead_to_client_base_converted_success']    = 'Lead converted to customer successfully';
 $lang['lead_already_converted']                   = 'Converted to customer';
@@ -1132,46 +1132,46 @@ $lang['payment_modes_dt_active']                   = 'Active';
 $lang['contract_not_found'] = 'Contract not found. Maybe is deleted, check activity log';
 
 # Settings
-$lang['setting_bar_heading']                 = 'Setup';
+$lang['setting_bar_heading']                 = 'Ayar';
 $lang['settings_group_online_payment_modes'] = 'Payment Gataways';
-$lang['settings_paymentmethod_mode_label']   = 'Label';
-$lang['settings_paymentmethod_active']       = 'Active';
+$lang['settings_paymentmethod_mode_label']   = 'Etiket';
+$lang['settings_paymentmethod_active']       = 'Aktif';
 $lang['settings_paymentmethod_currencies']   = 'Coma Separated Currencies';
-$lang['settings_paymentmethod_testing_mode'] = 'Enable Testing Mode';
+$lang['settings_paymentmethod_testing_mode'] = 'Test Modunu Devreye Al';
 
-$lang['settings_paymentmethod_paypal_username']  = 'Paypal API Username';
-$lang['settings_paymentmethod_paypal_password']  = 'Paypal API Password';
-$lang['settings_paymentmethod_paypal_signature'] = 'API Signature';
+$lang['settings_paymentmethod_paypal_username']  = 'Paypal API Kulllanıcı Adı';
+$lang['settings_paymentmethod_paypal_password']  = 'Paypal API Şifre';
+$lang['settings_paymentmethod_paypal_signature'] = 'API İmza';
 
 $lang['settings_paymentmethod_stripe_api_secret_key']      = 'Stripe API Secret Key';
 $lang['settings_paymentmethod_stripe_api_publishable_key'] = 'Stripe Publishable Key';
 $lang['settings_limit_top_search_bar_results']             = 'Limit Top Search Bar Results to';
 
 # Quick Actions
-$lang['qa_create_invoice']  = 'Create Invoice';
-$lang['qa_create_task']     = 'Create Task';
-$lang['qa_create_client']   = 'Create Customer';
-$lang['qa_create_contract'] = 'Create Contract';
-$lang['qa_create_kba']      = 'Create Knowledge Base Article';
-$lang['qa_create_survey']   = 'Create Survey';
-$lang['qa_create_ticket']   = 'Open Ticket';
-$lang['qa_create_staff']    = 'Create Staff Member';
+$lang['qa_create_invoice']  = 'Fatura Oluştur';
+$lang['qa_create_task']     = 'Görev Oluştur';
+$lang['qa_create_client']   = 'Müşteri Oluştur';
+$lang['qa_create_contract'] = 'Sözleşme Oluştur';
+$lang['qa_create_kba']      = 'Bilgi Bankası makalesi oluştur';
+$lang['qa_create_survey']   = 'Anketi Oluştur';
+$lang['qa_create_ticket']   = 'Açık Bilet';
+$lang['qa_create_staff']    = 'Personel Üye Oluştur';
 
 ## Clients
-$lang['client_phonenumber'] = 'Phone';
+$lang['client_phonenumber'] = 'Telefon';
 
 # Main Clients
-$lang['clients_register']                          = 'Register';
-$lang['clients_profile_updated']                   = 'Your profile has been updated';
-$lang['clients_successfully_registered']           = 'Thank your for registering';
-$lang['clients_account_created_but_not_logged_in'] = 'Your account has been created but you are not logged in our system automatically. Please try to login';
+$lang['clients_register']                          = 'Kayıt';
+$lang['clients_profile_updated']                   = 'Profiliniz Güncellendi';
+$lang['clients_successfully_registered']           = 'Kayıt olduğunuz için teşekkürler';
+$lang['clients_account_created_but_not_logged_in'] = 'Hesabınız oluşturuldu. Ama otomatik olarak sistem girişi yapmadınız. Girişi deneyin';
 # Tickets
-$lang['clients_tickets_heading']                   = 'Support Tickets';
+$lang['clients_tickets_heading']                   = 'Destek Bileti';
 
 # Payments
 // Uses on stripe page
-$lang['payment_for_invoice'] = 'Payment for Invoice';
-$lang['payment_total']       = 'Total: %s';
+$lang['payment_for_invoice'] = 'Fatura Ödeme';
+$lang['payment_total']       = 'Toplam: %s';
 
 # Invoice
 $lang['invoice_html_online_payment']             = 'Online Ödeme';
@@ -1199,22 +1199,22 @@ $lang['is_active_export']             = 'Evet';
 $lang['invoice_add_edit_advanced_options']               = 'Gelişmiş seçenekler';
 $lang['invoice_add_edit_allowed_payment_modes']          = 'Allowed payment modes for this invoice';
 $lang['invoice_add_edit_recuring_invoices_from_invoice'] = 'Recurring invoices from this invoice';
-$lang['invoice_add_edit_no_payment_modes_found']         = 'No payment modes found.';
-$lang['invoice_html_total_pay']                          = 'Total: %s';
+$lang['invoice_add_edit_no_payment_modes_found']         = 'Hiçbir ödeme modu bulunamadı.';
+$lang['invoice_html_total_pay']                          = 'Toplam: %s';
 
 # Email templates
-$lang['email_templates_table_heading_name'] = 'Template Name';
+$lang['email_templates_table_heading_name'] = 'Şablon Adı';
 # General
-$lang['discount_type']                      = 'Discount Type';
-$lang['discount_type_after_tax']            = 'After Tax';
-$lang['discount_type_before_tax']           = 'Before Tax';
-$lang['terms_and_conditions']               = 'Terms & Conditions';
-$lang['reference_no']                       = 'Reference #';
-$lang['no_discount']                        = 'No discount';
-$lang['view_stats_tooltip']                 = 'View Quick Stats';
+$lang['discount_type']                      = 'İndirim Tipi';
+$lang['discount_type_after_tax']            = 'Vergi Sonrası';
+$lang['discount_type_before_tax']           = 'Vergi Öncesi';
+$lang['terms_and_conditions']               = 'Şartlar & Koşullar';
+$lang['reference_no']                       = 'Referans #';
+$lang['no_discount']                        = 'İndirimsiz';
+$lang['view_stats_tooltip']                 = 'Hızlı İstatistikler Gör';
 # Clients
-$lang['zip_from_date']                      = 'From Date:';
-$lang['zip_to_date']                        = 'To Date:';
+$lang['zip_from_date']                      = 'Tarihten itibaren:';
+$lang['zip_to_date']                        = 'Tarihi:';
 $lang['client_zip_payments']                = 'ZIP Payments';
 $lang['client_zip_invoices']                = 'ZIP Invoices';
 $lang['client_zip_estimates']               = 'ZIP Estimates';
@@ -1597,37 +1597,37 @@ $lang['goal_type_income_subtext']                                    = 'Income w
 # Payments
 $lang['payment_transaction_id']                                      = 'Transaction ID';
 # Settings Menu
-$lang['acs_expenses']                                                = 'Expenses';
-$lang['acs_expense_categories']                                      = 'Expenses Categories';
+$lang['acs_expenses']                                                = 'Giderler';
+$lang['acs_expense_categories']                                      = 'Giderler Kategorisi';
 # Expeneses
-$lang['expense_category']                                            = 'Expense Category';
-$lang['expense_category_lowercase']                                  = 'expense category';
-$lang['new_expense']                                                 = 'Record Expense';
-$lang['expense_add_edit_name']                                       = 'Category Name';
-$lang['expense_add_edit_description']                                = 'Category Description';
-$lang['expense_categories']                                          = 'Expense Categories';
-$lang['new_expense_category']                                        = 'New Category';
-$lang['dt_expense_description']                                      = 'Description';
-$lang['expense']                                                     = 'Expense';
-$lang['expenses']                                                    = 'Expenses';
-$lang['expense_lowercase']                                           = 'expense';
-$lang['expense_add_edit_tax']                                        = 'Tax';
-$lang['expense_add_edit_customer']                                   = 'Customer';
-$lang['expense_add_edit_currency']                                   = 'Currency';
-$lang['expense_add_edit_note']                                       = 'Note';
-$lang['expense_add_edit_date']                                       = 'Expense Date';
-$lang['expense_add_edit_amount']                                     = 'Amount';
+$lang['expense_category']                                            = 'Gider Kategorisi';
+$lang['expense_category_lowercase']                                  = 'gider kategorisi';
+$lang['new_expense']                                                 = 'Gider Kaydı';
+$lang['expense_add_edit_name']                                       = 'Kategori Adı';
+$lang['expense_add_edit_description']                                = 'Kategori Açıklaması';
+$lang['expense_categories']                                          = 'Gider Kategorileri';
+$lang['new_expense_category']                                        = 'Yeni Kategori';
+$lang['dt_expense_description']                                      = 'Açıklama';
+$lang['expense']                                                     = 'Gider';
+$lang['expenses']                                                    = 'Giderler';
+$lang['expense_lowercase']                                           = 'Gider';
+$lang['expense_add_edit_tax']                                        = 'Vergi';
+$lang['expense_add_edit_customer']                                   = 'Müşteri';
+$lang['expense_add_edit_currency']                                   = 'Para Birimi';
+$lang['expense_add_edit_note']                                       = 'Not';
+$lang['expense_add_edit_date']                                       = 'Gider Tarihi';
+$lang['expense_add_edit_amount']                                     = 'Tutar';
 $lang['expense_add_edit_billable']                                   = 'Billable';
 $lang['expense_add_edit_attach_receipt']                             = 'Attach Receipt';
-$lang['expense_add_edit_reference_no']                               = 'Reference #';
-$lang['expense_receipt']                                             = 'Expense Receipt';
-$lang['expense_receipt_lowercase']                                   = 'expense receipt';
-$lang['expense_dt_table_heading_category']                           = 'Category';
-$lang['expense_dt_table_heading_amount']                             = 'Amount';
-$lang['expense_dt_table_heading_date']                               = 'Date';
-$lang['expense_dt_table_heading_reference_no']                       = 'Reference #';
-$lang['expense_dt_table_heading_customer']                           = 'Customer';
-$lang['expense_dt_table_heading_payment_mode']                       = 'Payment Mode';
+$lang['expense_add_edit_reference_no']                               = 'Referans #';
+$lang['expense_receipt']                                             = 'Gider Makbuzu';
+$lang['expense_receipt_lowercase']                                   = 'Gider Makbuzu';
+$lang['expense_dt_table_heading_category']                           = 'Kategori';
+$lang['expense_dt_table_heading_amount']                             = 'Tutar';
+$lang['expense_dt_table_heading_date']                               = 'Tarih';
+$lang['expense_dt_table_heading_reference_no']                       = 'Referans #';
+$lang['expense_dt_table_heading_customer']                           = 'Müşteri';
+$lang['expense_dt_table_heading_payment_mode']                       = 'Ödeme Modu';
 $lang['expense_converted_to_invoice']                                = 'Expense successfully converted to invoice';
 $lang['expense_converted_to_invoice_fail']                           = 'Failed to convert this expense to invoice check error log.';
 $lang['expense_copy_success']                                        = 'The expense is copied successfully.';
@@ -1651,7 +1651,7 @@ $lang['expense_note']                                                = 'Note:';
 $lang['expense_date']                                                = 'Date:';
 $lang['expense_ref_noe']                                             = 'Ref #:';
 $lang['expense_tax']                                                 = 'Tax:';
-$lang['expense_amount']                                              = 'Amount:';
+$lang['expense_amount']                                              = 'Tutar:';
 $lang['expense_recurring_indicator']                                 = 'Recurring';
 $lang['expense_already_invoiced']                                    = 'This expense is already invoiced';
 $lang['expense_recurring_auto_create_invoice']                       = 'Auto Create Invoice';
@@ -2126,16 +2126,16 @@ $lang['utilities_menu_name']                = 'İsim';
 $lang['utilities_menu_save']                = 'Menüyü Kaydet';
 
 # Knowledge Base
-$lang['view_articles_list']     = 'View Articles';
-$lang['view_articles_list_all'] = 'All Articles';
-$lang['als_add_article']        = 'Add Article';
-$lang['als_all_articles']       = 'All Articles';
-$lang['als_kb_groups']          = 'Groups';
+$lang['view_articles_list']     = 'Makaleleri Görüntüle';
+$lang['view_articles_list_all'] = 'Tüm Makaleler';
+$lang['als_add_article']        = 'Makale Ekle';
+$lang['als_all_articles']       = 'Tüm Makaleler';
+$lang['als_kb_groups']          = 'Gruplar';
 
 # Customizer Menu
-$lang['menu_builder']            = 'Menu Setup';
-$lang['main_menu']               = 'Main Menu';
-$lang['setup_menu']              = 'Setup Menu';
+$lang['menu_builder']            = 'Menü Builder';
+$lang['main_menu']               = 'Ana Menü';
+$lang['setup_menu']              = 'Menü Ayar';
 $lang['utilities_menu_url_help'] = '%s is auto appended to the url';
 
 # Spam Filter - Tickets
@@ -2309,7 +2309,7 @@ $lang['proposal_items_description'] = 'Açıklama';
 $lang['proposal_items_qty'] = 'Qty';
 $lang['proposal_items_rate'] = 'Rate';
 $lang['proposal_items_tax'] = 'Tax';
-$lang['proposal_items_amount'] = 'Amount';
+$lang['proposal_items_amount'] = 'Tutar';
 
 # Authentication
 $lang['check_email_for_reseting_password'] = 'Check your email for further instructions resetting your password';
@@ -2691,11 +2691,11 @@ $lang['lead_company'] = 'Company';
 # Version 1.1.1
 $lang['admin_auth_forgot_password_button'] = 'Confirm';
 $lang['task_assigned'] = 'Assigned to';
-$lang['switch_to_pipeline'] = 'Switch to pipeline';
-$lang['switch_to_list_view'] = 'Switch to list';
+$lang['switch_to_pipeline'] = 'Boru Görünüme Geç';
+$lang['switch_to_list_view'] = 'Liste Görünüme Geç';
 $lang['estimates_pipeline'] = 'Estimates Pipeline';
-$lang['estimates_pipeline_sort'] = 'Sort By';
-$lang['estimates_sort_expiry_date'] = 'Expiry Date';
+$lang['estimates_pipeline_sort'] = 'Sıralama';
+$lang['estimates_sort_expiry_date'] = 'Son kullanma tarihi';
 $lang['estimates_sort_pipeline'] = 'Pipeline Order';
 $lang['estimates_sort_datecreated'] = 'Date Created';
 $lang['estimates_sort_estimate_date'] = 'Tahimini Tarih';
@@ -2821,12 +2821,12 @@ $lang['month'] = 'Month';
 $lang['months'] = 'Months';
 $lang['year'] = 'Year';
 $lang['years'] = 'Years';
-$lang['expense_report_category'] = 'Category';
+$lang['expense_report_category'] = 'Kategori';
 $lang['expense_paid_via'] = 'Paid Via %s';
 $lang['item_as_expense'] = '[Expense]';
 $lang['show_help_on_setup_menu'] = 'Show help menu item on setup menu';
 $lang['customers_summary_total'] = 'Tüm Müşteriler';
-$lang['filter_by'] = 'Filter by';
+$lang['filter_by'] = 'Filtre by';
 $lang['re_captcha'] = 'reCAPTCHA';
 $lang['recaptcha_site_key'] = 'Site key';
 $lang['recaptcha_secret_key'] = 'Secret key';
@@ -2864,7 +2864,7 @@ $lang['task_finished_on_time'] = 'Finished on time?';
 $lang['task_finished_on_time_indicator'] = 'Yes';
 $lang['task_not_finished_on_time_indicator'] = 'No';
 $lang['task_filter_fetch_month_by'] = 'Fetch month from';
-$lang['filter'] = 'Filter';
+$lang['filter'] = 'Filtre';
 $lang['task_filter_detailed_all_months'] = 'All Months';
 $lang['task_filter_detailed_show_tasks'] = 'Show Tasks';
 $lang['kb_article_slug'] = 'Slug';
