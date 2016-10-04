@@ -664,101 +664,102 @@ $lang['acs_roles']                             = 'Görevler';
 $lang['acs_settings']                          = 'Ayarlar';
 
 # Tickets
-$lang['new_ticket']                                         = 'Open New Ticket';
-$lang['tickets']                                            = 'Tickets';
-$lang['ticket']                                             = 'Ticket';
-$lang['ticket_lowercase']                                   = 'ticket';
-$lang['support_tickets']                                    = 'Support Tickets';
-$lang['support_ticket']                                     = 'Support Ticket';
+$lang['new_ticket']                                         = 'Teni Bilet Aç';
+$lang['tickets']                                            = 'Biletler';
+$lang['ticket']                                             = 'Bilet';
+$lang['ticket_lowercase']                                   = 'bilet';
+$lang['support_tickets']                                    = 'Destek Biletleri';
+$lang['support_ticket']                                     = 'Destek Bileti';
 $lang['ticket_settings_to']                                 = 'To';
-$lang['ticket_settings_email']                              = 'Email address';
-$lang['ticket_settings_departments']                        = 'Department';
-$lang['ticket_settings_service']                            = 'Service';
-$lang['ticket_settings_priority']                           = 'Priority';
-$lang['ticket_settings_subject']                            = 'Subject';
+$lang['ticket_settings_email']                              = 'Email adres';
+$lang['ticket_settings_departments']                        = 'Departman';
+$lang['ticket_settings_service']                            = 'Servis';
+$lang['ticket_settings_priority']                           = 'Öncelik';
+$lang['ticket_settings_subject']                            = 'Konu';
 $lang['ticket_settings_assign_to']                          = 'Assign ticket (default is current user)';
-$lang['ticket_settings_assign_to_you']                      = 'You';
+$lang['ticket_settings_assign_to_you']                      = 'Seni';
 $lang['ticket_settings_select_client']                      = 'Select Client';
 $lang['ticket_add_body']                                    = 'Ticket Body';
-$lang['ticket_add_attachments']                             = 'Attachments';
+$lang['ticket_add_attachments']                             = 'Ekler';
 $lang['ticket_no_reply_yet']                                = 'No Reply Yet';
 $lang['new_ticket_added_succesfuly']                        = 'Ticket #%s added successfully';
 $lang['replied_to_ticket_succesfuly']                       = 'Replied to ticket #%s successfully';
 $lang['ticket_settings_updated_successfuly']                = 'Ticket settings updated successfully';
 $lang['ticket_settings_updated_successfuly_and_reassigned'] = 'Ticket settings updated successfully - reasigned to department %s';
-$lang['ticket_dt_subject']                                  = 'Subject';
+$lang['ticket_dt_subject']                                  = 'Konu';
 $lang['ticket_dt_department']                               = 'Department';
-$lang['ticket_dt_service']                                  = 'Service';
-$lang['ticket_dt_submitter']                                = 'Customer';
-$lang['ticket_dt_status']                                   = 'Status';
-$lang['ticket_dt_priority']                                 = 'Priority';
-$lang['ticket_dt_last_reply']                               = 'Last Reply';
+$lang['ticket_dt_service']                                  = 'Servis';
+$lang['ticket_dt_submitter']                                = 'Müşteri';
+$lang['ticket_dt_status']                                   = 'Durum';
+$lang['ticket_dt_priority']                                 = 'Öncelik';
+$lang['ticket_dt_last_reply']                               = 'Son Cevap';
 
-$lang['ticket_single_add_reply']                  = 'Add Reply';
-$lang['ticket_single_add_note']                   = 'Add note';
-$lang['ticket_single_other_user_tickets']         = 'Other Tickets';
-$lang['ticket_single_settings']                   = 'Settings';
-$lang['ticket_single_priority']                   = 'Priority: %s';
-$lang['ticket_single_last_reply']                 = 'Last Reply: %s';
-$lang['ticket_single_change_status_top']          = 'Change Status';
+$lang['ticket_single_add_reply']                  = 'Cevap Ekle';
+$lang['ticket_single_add_note']                   = 'Not Ekle';
+$lang['ticket_single_other_user_tickets']         = 'Diğer Biletler';
+$lang['ticket_single_settings']                   = 'Ayarlar';
+$lang['ticket_single_priority']                   = 'Öncelik: %s';
+$lang['ticket_single_last_reply']                 = 'Son Cevap: %s';
+$lang['ticket_single_change_status_top']          = 'Durumu Değiştir';
 $lang['ticket_single_ticket_note_by']             = 'Ticket note by %s';
-$lang['ticket_single_note_added']                 = 'Note added: %s';
-$lang['ticket_single_change_status']              = 'Change Status';
+$lang['ticket_single_note_added']                 = 'Not eklendi: %s';
+$lang['ticket_single_change_status']              = 'Durumu Değiştir';
 $lang['ticket_single_assign_to_me_on_update']     = 'Assign this ticket to me automatically';
 $lang['ticket_single_insert_predefined_reply']    = 'Insert predefined reply';
 $lang['ticket_single_insert_knowledge_base_link'] = 'Insert knowledge base link';
-$lang['ticket_single_attachments']                = 'Attachments';
-$lang['ticket_single_add_response']               = 'Add Response';
-$lang['ticket_single_note_heading']               = 'Note';
-$lang['ticket_single_add_note']                   = 'Add note';
-$lang['ticket_settings_none_assigned']            = 'None';
-$lang['ticket_status_changed_successfuly']        = 'Ticket Status Changed';
+$lang['ticket_single_attachments']                = 'Ekler';
+$lang['ticket_single_add_response']               = 'Cevap Ekleyin';
+$lang['ticket_single_note_heading']               = 'Not';
+$lang['ticket_single_add_note']                   = 'Not Ekle';
+$lang['ticket_settings_none_assigned']            = 'Yok';
+$lang['ticket_status_changed_successfuly']        = 'Bilet Durum Değişti';
 $lang['ticket_status_changed_fail']               = 'Problem Changing Ticket Status';
 
-$lang['ticket_staff_string']                    = 'Staff';
-$lang['ticket_client_string']                   = 'Customer';
-$lang['ticket_posted']                          = 'Posted: %s';
+$lang['ticket_staff_string']                    = 'Personel';
+$lang['ticket_client_string']                   = 'Müşteri';
+$lang['ticket_posted']                          = 'Gönderildi: %s';
 $lang['ticket_insert_predefined_reply_heading'] = 'Insert predefined reply';
 $lang['ticket_kb_link_heading']                 = 'Insert knowledge base link';
 $lang['ticket_access_by_department_denied']     = 'You dont have access to this ticket. This ticket belongs to department that you are not assigned.';
 
 # Staff
-$lang['new_staff']                       = 'New Staff Member';
-$lang['staff_members']                   = 'Staff Members';
-$lang['staff_member']                    = 'Staff Member';
-$lang['staff_member_lowercase']          = 'staff member';
-$lang['staff_profile_updated']           = 'Your Profile has Been Updated';
-$lang['staff_old_password_incorect']     = 'Your old password is incorrect';
-$lang['staff_password_changed']          = 'Your password has been changed';
+$lang['new_staff']                       = 'Yeni Personel
+';
+$lang['staff_members']                   = 'Personeli';
+$lang['staff_member']                    = 'Personeli';
+$lang['staff_member_lowercase']          = 'personeli';
+$lang['staff_profile_updated']           = 'Profiliniz Güncellendi';
+$lang['staff_old_password_incorect']     = 'Eski parolanız yanlış';
+$lang['staff_password_changed']          = 'Parolanız değiştirildi';
 $lang['staff_problem_changing_password'] = 'Problem changing your password';
-$lang['staff_profile_string']            = 'Profile';
+$lang['staff_profile_string']            = 'Profil';
 
 $lang['staff_cant_remove_main_admin']          = 'Cant remove main administrator';
 $lang['staff_cant_remove_yourself_from_admin'] = 'You cant remove yourself the administrator role';
 
-$lang['staff_dt_name']       = 'Full Name';
+$lang['staff_dt_name']       = 'Ad Soyad';
 $lang['staff_dt_email']      = 'Email';
-$lang['staff_dt_last_Login'] = 'Last Login';
-$lang['staff_dt_active']     = 'Active';
+$lang['staff_dt_last_Login'] = 'Son Giriş';
+$lang['staff_dt_active']     = 'Aktif';
 
-$lang['staff_add_edit_firstname']             = 'First Name';
-$lang['staff_add_edit_lastname']              = 'Last Name';
+$lang['staff_add_edit_firstname']             = 'İsim';
+$lang['staff_add_edit_lastname']              = 'Soyisim';
 $lang['staff_add_edit_email']                 = 'Email';
-$lang['staff_add_edit_phonenumber']           = 'Phone';
+$lang['staff_add_edit_phonenumber']           = 'Telefon';
 $lang['staff_add_edit_facebook']              = 'Facebook';
 $lang['staff_add_edit_linkedin']              = 'LinkedIn';
 $lang['staff_add_edit_skype']                 = 'Skype';
-$lang['staff_add_edit_departments']           = 'Member departments';
-$lang['staff_add_edit_role']                  = 'Role';
-$lang['staff_add_edit_permissions']           = 'Permissions';
-$lang['staff_add_edit_administrator']         = 'Administrator';
-$lang['staff_add_edit_password']              = 'Password';
+$lang['staff_add_edit_departments']           = 'Üye bölümleri';
+$lang['staff_add_edit_role']                  = 'Görev';
+$lang['staff_add_edit_permissions']           = 'İzinleri';
+$lang['staff_add_edit_administrator']         = 'Yönetici';
+$lang['staff_add_edit_password']              = 'Şifre';
 $lang['staff_add_edit_password_note']         = 'Note: if you populate this fields, password will be changed on this member.';
-$lang['staff_add_edit_password_last_changed'] = 'Password last changed';
-$lang['staff_add_edit_notes']                 = 'Notes';
-$lang['staff_add_edit_note_description']      = 'Note description';
+$lang['staff_add_edit_password_last_changed'] = 'Son parola değiştirildi';
+$lang['staff_add_edit_notes']                 = 'Notlar';
+$lang['staff_add_edit_note_description']      = 'Not açıklama';
 
-$lang['staff_notes_table_description_heading'] = 'Note';
+$lang['staff_notes_table_description_heading'] = 'Not';
 $lang['staff_notes_table_addedfrom_heading']   = 'Added From';
 $lang['staff_notes_table_dateadded_heading']   = 'Date Added';
 
@@ -2113,11 +2114,11 @@ $lang['customer_have_contracts_by_type'] = 'Having contracts by type %s';
 $lang['custom_field_show_on_table']              = 'Show on table';
 $lang['custom_field_show_on_client_portal']      = 'Show on client portal';
 $lang['custom_field_show_on_client_portal_help'] = 'If this field is checked also will be shown in tables';
-$lang['custom_field_visibility']                 = 'Visibility';
+$lang['custom_field_visibility']                 = 'Görünürlük';
 
 # Utilities # Menu Builder
 $lang['utilities_menu_translate_name_help'] = 'You can add here also translate strings. So if staff/system have language other then the default the menu item names will be outputed in the staff language. Otherwise if the string dont exists in the translate file will be taken the string you enter here.';
-$lang['utilities_menu_icon']                = 'Icon';
+$lang['utilities_menu_icon']                = 'Ikon';
 $lang['active_menu_items']                  = 'Etkin Menü Öğeleri';
 $lang['inactive_menu_items']                = 'Etkin olmayan Menü Öğeleri';
 $lang['utilities_menu_permission']          = 'İzin';
@@ -2139,25 +2140,26 @@ $lang['setup_menu']              = 'Menü Ayar';
 $lang['utilities_menu_url_help'] = '%s is auto appended to the url';
 
 # Spam Filter - Tickets
-$lang['spam_filters']                 = 'Spam Filters';
-$lang['spam_filter']                  = 'Spam Filter';
-$lang['new_spam_filter']              = 'New Spam Filter';
-$lang['spam_filter_blocked_senders']  = 'Blocked Senders';
-$lang['spam_filter_blocked_subjects'] = 'Blocked Subjects';
-$lang['spam_filter_blocked_phrases']  = 'Blocked Phrases';
-$lang['spam_filter_content']          = 'Content';
+$lang['spam_filters']                 = 'Spam filtreleri';
+$lang['spam_filter']                  = 'Spam filtresi';
+$lang['new_spam_filter']              = 'Yeni Spam Filtresi';
+$lang['spam_filter_blocked_senders']  = 'Engellenen Gönderenler
+';
+$lang['spam_filter_blocked_subjects'] = 'Engellenen Konular';
+$lang['spam_filter_blocked_phrases']  = 'Engellenen İfadeler';
+$lang['spam_filter_content']          = 'İçerik';
 $lang['spamfilter_edit_heading']      = 'Edit Spam Filter';
 $lang['spamfilter_add_heading']       = 'Add Spam Filter';
 $lang['spamfilter_type']              = 'Type';
 $lang['spamfilter_type_subject']      = 'Subject';
-$lang['spamfilter_type_sender']       = 'Sender';
+$lang['spamfilter_type_sender']       = 'Gönderen';
 $lang['spamfilter_type_phrase']       = 'Phrase';
 
 # Tickets
-$lang['block_sender']               = 'Block Sender';
-$lang['sender_blocked']             = 'Sender Blocked';
-$lang['sender_blocked_successfuly'] = 'Sender Blocked Successfully';
-$lang['ticket_date_created']        = 'Date Created';
+$lang['block_sender']               = 'Göndereni Engelle';
+$lang['sender_blocked']             = 'Gönderen Engellendi';
+$lang['sender_blocked_successfuly'] = 'Gönderen Başarıyla Engellendi';
+$lang['ticket_date_created']        = 'tarih oluşturuldu';
 
 #KB
 $lang['edit_kb_group']             = 'Edit group';
@@ -2179,12 +2181,12 @@ $lang['ticket_pipe_date']          = 'Date';
 $lang['ticket_pipe_status']        = 'Status';
 
 # Home
-$lang['home_latest_activity']       = 'Latest Activity';
-$lang['home_my_tasks']              = 'My Tasks';
-$lang['home_latest_activity']       = 'Latest Activity';
+$lang['home_latest_activity']       = 'Son Etkinlik';
+$lang['home_my_tasks']              = 'Görevlerim';
+$lang['home_latest_activity']       = 'Son Etkinlik';
 $lang['home_my_todo_items']         = 'My Todo Items';
-$lang['home_widget_view_all']       = 'View All';
-$lang['home_stats_full_report']     = 'Full Report';
+$lang['home_widget_view_all']       = 'Hepsini Gör';
+$lang['home_stats_full_report']     = 'Ful Rapor';
 
 # Validation - Customer Portal
 
@@ -2883,8 +2885,8 @@ $lang['not_project_file_uploaded'] = 'New project file added';
 $lang['settings_calendar_color'] = '%s Color';
 $lang['settings_calendar_colors_heading'] = 'Styling';
 $lang['reminder'] = 'Reminder';
-$lang['back_to_tasks_list'] = 'Back to tasks list';
-$lang['copy_task_confirm'] = 'Confirm';
+$lang['back_to_tasks_list'] = 'Görevler listesine geri dön';
+$lang['copy_task_confirm'] = 'Onay';
 $lang['changing_items_affect_warning'] = 'Changing item info wont affect on the created invoices/estimates.';
 $lang['tax_is_used_in_expenses_warning'] = 'You cant update this tax because expenses transactions using this tax are found.';
 $lang['note'] = 'Note';
